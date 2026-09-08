@@ -1,7 +1,6 @@
 ---
-name: Supportticketentwurf
-description: Bereitet aus einer schriftlichen Support Ticket einen belegten internen Antwortentwurf und eine getrennte Prüfübersicht vor. 
-Verwenden, wenn ein fiktiver oder freigegebener Supportfall geprüft werden soll.
+name: supportticketentwurf
+description: Bereitet aus einem schriftlichen Supportticket einen belegten internen Antwortentwurf und eine getrennte Prüfübersicht vor. Verwenden, wenn ein fiktiver oder freigegebener Supportfall geprüft werden soll.
 ---
 
 # Supportticketentwurf
