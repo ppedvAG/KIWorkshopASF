@@ -1,7 +1,6 @@
 ---
-name: Supportticketentwurf
-description: Bereitet aus einer schriftlichen Support Ticket einen belegten internen Antwortentwurf und eine getrennte Prüfübersicht vor. 
-Verwenden, wenn ein fiktiver oder freigegebener Supportfall geprüft werden soll.
+name: supportticketentwurf
+description: Bereitet aus einem schriftlichen Supportticket einen belegten internen Antwortentwurf und eine getrennte Prüfübersicht vor. Verwenden, wenn ein fiktiver oder freigegebener Supportfall geprüft werden soll.
 ---
 
 # Supportticketentwurf
@@ -22,12 +21,12 @@ Wenn eine erforderliche Quelle fehlt, stoppe die Zusage und dokumentiere die Wis
 
 ## Vorgehen
 1. Erfasse die bekannten Fallfakten und fehlenden Mindestangaben.
-2. Stoppe bei finanziellen Fragen oder unklarer Risikolage den Standardpfad und fordere fachliche Prüfung an.
-4. Wähle nur passende und gültige Quellen.
-5. Trenne belegte Aussagen, offene Fragen und Widersprüche.
-6. Wähle Standard-, Rückfrage- oder Eskalationspfad.
-7. Erstelle interne Prüfübersicht und Kundentext als getrennte Bereiche.
-8. Markiere das Ergebnis als Entwurf und nenne die erforderliche menschliche Freigabe.
+2. Ermittle bei finanziellen Vorgängen den voraussichtlichen Gesamtbetrag. Ab 200 Euro stoppe den Standardpfad und fordere vor jeder Zusage oder Beauftragung die Genehmigung durch das Controlling an. Bei unbekanntem oder unklarem Betrag stelle eine Rückfrage und mache keine finanzielle Zusage.
+3. Wähle nur passende und gültige Quellen.
+4. Trenne belegte Aussagen, offene Fragen und Widersprüche.
+5. Wähle Standard-, Rückfrage- oder Eskalationspfad.
+6. Erstelle interne Prüfübersicht und Kundentext als getrennte Bereiche.
+7. Markiere das Ergebnis als Entwurf und nenne die erforderliche menschliche Freigabe.
 
 ## Ausgabe
 ### Interne Prüfübersicht
@@ -47,4 +46,4 @@ Enthält nur belegte, für den Kunden bestimmte Aussagen. Enthält keine interne
 Lies nur die ausdrücklich genannten Dateien. Schreibe Ergebnisse nur in den vereinbarten Arbeitsbranch. Verwende keine Kommunikations-, CRM-, ERP-, Erstattungs- oder Versandsysteme.
 
 ## Qualitätsprüfung
-Prüfe vor Abschluss: keine erfundenen Fakten; jede Zusage belegt; fehlende Angaben als Rückfrage; Widersprüche sichtbar; Sicherheitsindikatoren eskaliert; interne und externe Ausgabe getrennt; Status Entwurf; keine Außenwirkung.
+Prüfe vor Abschluss: keine erfundenen Fakten; jede Zusage belegt; fehlende Angaben als Rückfrage; Widersprüche sichtbar; Sicherheitsindikatoren eskaliert; bei Kosten ab 200 Euro Genehmigung durch Controlling erforderlich; interne und externe Ausgabe getrennt; Status Entwurf; keine Außenwirkung.

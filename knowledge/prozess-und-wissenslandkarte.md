@@ -49,6 +49,11 @@ Fehlende entscheidungsrelevante Angaben werden erfragt und nicht ergänzt.
 - Ja: im Entwurf berücksichtigen.
 - Nein: nur belegte Alternative formulieren.
 - Unklar: keine Zusage; an fachlichen Owner eskalieren.
+
+### E05: Beträgt der finanzielle Aufwand mindestens 200 Euro?
+- Ja: keine Zusage oder Beauftragung; Genehmigung durch Controlling anfordern.
+- Nein: im normalen Prüfpfad fortfahren.
+- Betrag unbekannt oder unklar: Betrag erfragen und keine finanzielle Zusage machen.
 4.6 Wissensarten und Regelkarten eintragen
 ## 7. Wissensarten
 - Fallfakt: gilt nur für den aktuellen Vorgang.
@@ -70,6 +75,14 @@ Fehlende entscheidungsrelevante Angaben werden erfragt und nicht ergänzt.
 - Owner: Controlling
 - Status: Wissenslücke
 
+### R03 Genehmigung finanzieller Aufwände
+- Aussage: Ab einem finanziellen Aufwand von 200 Euro ist vor einer Zusage oder Beauftragung die Genehmigung durch das Controlling erforderlich.
+- Schwellenlogik: Kosten größer oder gleich 200 Euro.
+- Genehmigende Rolle: Controlling
+- Quelle: Festlegung für diesen Prozess
+- Owner: Controlling
+- Status: bestätigt
+
 
 4.7 Quellen, Ausnahmen und Kontrollpunkte eintragen
 ## 9. Quellenlandkarte
@@ -79,6 +92,7 @@ Fehlende entscheidungsrelevante Angaben werden erfragt und nicht ergänzt.
 | `cases/F01-Emailantwort.md` | bisheriges Ergebnis | vorhanden, nicht verbindlich | Workshop |
 | Lösungsrichtlinie | Zusagen | fehlt | Serviceleitung |
 | Raumnutzung | Raumwissen | fehlt | Controlling |
+| Regelkarte R03 in diesem Dokument | Genehmigung finanzieller Aufwände | bestätigt | Controlling |
 
 
 ## 10. Ausnahmen und Eskalationen
@@ -101,6 +115,7 @@ Der Skill darf keinen Kontrollpunkt selbst als bestanden markieren.
 - Kundentext und interne Prüfung bleiben getrennt.
 - Ergebnis bleibt als Entwurf markiert.
 - finanzielle Entscheidung nur durch Controlling
+- Bei Kosten ab 200 Euro liegt vor einer Zusage oder Beauftragung eine Genehmigung des Controllings vor.
 
 ## 13. Risiken
 - erfundene Fakten: Rückfragen statt Ergänzung
@@ -109,7 +124,6 @@ Der Skill darf keinen Kontrollpunkt selbst als bestanden markieren.
 
 
 ## 14. Offene Wissensfragen
-- Ab welchen Kosten muss eine Genehmigung stattfinden?
 - Ist eine Freigabe bei finanziellen Aufwand durch IT Support möglich  ?
 - Welche internen Angaben dürfen nie in den Kundentext?
 
