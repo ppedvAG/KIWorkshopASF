@@ -21,11 +21,13 @@ Nur Quellen, die in der Wissenslandkarte mit Herkunft, Status, Gültigkeit und O
 
 ## Ablauf
 1. Mindestangaben erfassen.
-2. passende erlaubte Quellen bestimmen.
-3. belegte Aussagen und offene Fragen trennen.
-4. Standard-, Rückfrage- oder Eskalationspfad wählen.
-5. interne Prüfübersicht und Kundentext getrennt erstellen.
-6. zur menschlichen Freigabe vorlegen.
+2. Bei finanziellen Vorgängen den voraussichtlichen Gesamtbetrag ermitteln.
+3. Ab 200 Euro vor einer Zusage oder Beauftragung die Genehmigung durch das Controlling anfordern; bei unbekanntem Betrag eine Rückfrage stellen.
+4. passende erlaubte Quellen bestimmen.
+5. belegte Aussagen und offene Fragen trennen.
+6. Standard-, Rückfrage- oder Eskalationspfad wählen.
+7. interne Prüfübersicht und Kundentext getrennt erstellen.
+8. zur menschlichen Freigabe vorlegen.
 
 ## Ausgabe
 - Status: Entwurf
