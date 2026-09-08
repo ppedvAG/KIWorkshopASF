@@ -13,6 +13,8 @@ Sie enthält noch keine Skill-Implementierung.
 | IT Support | Fall aufnehmen, Angaben prüfen, Entwurf vorbereiten |
 | Controlling | Regeln und zulässige Zusagen bestätigen |
 | Freigebende Rolle | Antwort vor externer Nutzung kontrollieren |
+| Hausmeister | Antwort vor externer Nutzung kontrollieren |
+
 4.4 Eingaben und Normalablauf eintragen
 ## 4. Benötigte Eingaben
 Pflicht: Zeitangabe, betroffen System, Fehlerbeschreibung, Fehlersituation und Kundenwunsch.
@@ -23,13 +25,14 @@ Fehlende entscheidungsrelevante Angaben werden erfragt und nicht ergänzt.
 | Nr. | Schritt | Ergebnis | Rolle |
 |---:|---|---|---|
 | 1 | Eingang lesen und Vorgang erfassen | Reklamationsfall | IT Support |
-| 2 | Fehler dem System zuordnen | eindeutig oder Rückfrage | IT Support  |
-| 3 | Mindestangaben prüfen | vollständig oder Rückfrage | IT Support  |
-| 4 | Regeln und Quellen prüfen | belegte Aussagen oder Lücke | IT Support  |
-| 5 | zulässige Lösung einordnen | Entwurfsgrundlage | IT Support  |
-| 6 | Antwortentwurf und interne Prüfung trennen | interner Entwurf | IT Support  |
-| 6 | finanzielle Entscheidung | interner Entwurf | Controlling  |
-| 7 | Entwurf menschlich freigeben | freigegeben oder zurückgegeben | Freigebende Rolle |
+| 2 | Mindestangaben prüfen | vollständig oder Rückfrage | IT Support  |
+| 3 | Fehler dem System zuordnen | eindeutig oder Rückfrage | IT Support  |
+| 4 | technisches Problem melden | eindeutig oder Rückfrage | Hausmeister  |
+| 5 | Regeln und Quellen prüfen | belegte Aussagen oder Lücke | IT Support  |
+| 6 | zulässige Lösung einordnen | Entwurfsgrundlage | IT Support  |
+| 7 | Antwortentwurf und interne Prüfung trennen | interner Entwurf | IT Support  |
+| 8 | finanzielle Entscheidung | interner Entwurf | Controlling  |
+| 9 | Entwurf menschlich freigeben | freigegeben oder zurückgegeben | Freigebende Rolle |
 4.5 Entscheidungspunkte eintragen
 ## 6. Entscheidungspunkte
 ### E01: Ist der Vorgang eindeutig zuordenbar?
@@ -54,6 +57,12 @@ Fehlende entscheidungsrelevante Angaben werden erfragt und nicht ergänzt.
 - Ja: keine Zusage oder Beauftragung; Genehmigung durch Controlling anfordern.
 - Nein: im normalen Prüfpfad fortfahren.
 - Betrag unbekannt oder unklar: Betrag erfragen und keine finanzielle Zusage machen.
+
+### E06: Kann das technische Problem innerhalb von 24 Stunden behoben werden?
+- Ja: keine Zusage oder Beauftragung; Genehmigung durch Hausmeister anfordern.
+- Nein: im normalen Prüfpfad fortfahren.
+- Schaden unklar: Dauer der Behebung  erfragen und keine Zusage machen.
+
 4.6 Wissensarten und Regelkarten eintragen
 ## 7. Wissensarten
 - Fallfakt: gilt nur für den aktuellen Vorgang.
@@ -83,6 +92,13 @@ Fehlende entscheidungsrelevante Angaben werden erfragt und nicht ergänzt.
 - Owner: Controlling
 - Status: bestätigt
 
+### R04 Behebung technischer Probleme
+- Aussage: Bei einem technischen Problem ist immer eine Anfrage beim Hausmeister erfoderlich.
+- Genehmigende Rolle: Hausmeister
+- Quelle: Festlegung für diesen Prozess
+- Owner: Hausmeister
+- Status: bestätigt
+
 
 4.7 Quellen, Ausnahmen und Kontrollpunkte eintragen
 ## 9. Quellenlandkarte
@@ -93,6 +109,8 @@ Fehlende entscheidungsrelevante Angaben werden erfragt und nicht ergänzt.
 | Lösungsrichtlinie | Zusagen | fehlt | Serviceleitung |
 | Raumnutzung | Raumwissen | fehlt | Controlling |
 | Regelkarte R03 in diesem Dokument | Genehmigung finanzieller Aufwände | bestätigt | Controlling |
+| Regelkarte R04 in diesem Dokument | Genehmigung bei technischen Problemen | bestätigt | Hausmeister |
+
 
 
 ## 10. Ausnahmen und Eskalationen
@@ -116,11 +134,13 @@ Der Skill darf keinen Kontrollpunkt selbst als bestanden markieren.
 - Ergebnis bleibt als Entwurf markiert.
 - finanzielle Entscheidung nur durch Controlling
 - Bei Kosten ab 200 Euro liegt vor einer Zusage oder Beauftragung eine Genehmigung des Controllings vor.
+- technische Problembehebung nur durch Genehmigung des Hausmeisters möglich
 
 ## 13. Risiken
 - erfundene Fakten: Rückfragen statt Ergänzung
 - unbelegte Zusage: Quellenprüfung und Freigabe
 - interne Information im Kundentext: getrennte Ausgabe
+- technisches Problem kann nicht in 24 Stunden behoben werden
 
 
 ## 14. Offene Wissensfragen
